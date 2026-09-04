@@ -1,0 +1,25 @@
+class Student:
+    def student_details(self):
+        print("Name: Sandesh")
+        print("Roll No: 101")
+
+
+class Marks(Student):
+    def marks_details(self):
+        print("Marks: 85")
+
+
+class Sports(Student):
+    def sports_details(self):
+        print("Sports: Cricket")
+
+
+# Objects
+m = Marks()
+s = Sports()
+
+m.student_details()
+m.marks_details()
+
+s.student_details()
+s.sports_details()
